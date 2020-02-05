@@ -42,6 +42,7 @@
                           'cc_expires' => $order['cc_expires'],
                           'date_purchased' => $order['date_purchased'],
                           'orders_status' => $order['orders_status'],
+                          'po_number' => $order['po_number'],
                           'last_modified' => $order['last_modified']);
 
       $this->customer = array('name' => $order['customers_name'],

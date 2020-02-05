@@ -83,6 +83,10 @@
         <td class="main"><strong><?php echo ENTRY_PAYMENT_METHOD; ?></strong></td>
         <td class="main"><?php echo $order->info['payment_method']; ?></td>
       </tr>
+      <tr>
+        <td class="main"><strong>PO Number</strong></td>
+        <td class="main"><?php echo $order->info['po_number']; ?></td>
+      </tr>
     </table></td>
   </tr>
   <tr>
